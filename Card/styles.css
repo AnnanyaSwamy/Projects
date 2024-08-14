@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.container{
+    background-color: black;
+    height: 17rem;
+    width: 28rem;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.top{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.details{
+    color: white;
+    font-size: 1.2em;
+    width: fit-content;
+    justify-content: start;
+}
+
+
+.balls{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2.5em;
+    width: 4em;
+    padding: 0.5em;
+}
+
+.orange {
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    background-color: orange;
+    opacity: 0.9;
+    position: absolute;
+}
+
+
+.red {
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    background-color: red;
+    opacity: 0.8;
+    position: absolute;
+    margin-left: 1.6em;
+}
+
+img{
+    height: 3.3em;
+    margin-left: 6.5em;
+}
+
+.left{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.mid{
+    color: white;
+    margin-left: 2em;
+    display: grid;
+    align-items: center;
+}
+
+.mid-number{
+    font-weight: 300;
+}
+
+.number{
+    font-size: 1.4em;
+}
+
+.bottom{
+    color: white;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 1.1em;
+}
+
+
+.name{
+    font-size: 1.2em;
+    margin-left: 2em;
+}
+
+.validity>p:first-child{
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.validity>p:nth-child(2){
+    margin-left: 0.5em;
+}
+
+.validity{
+    margin-left: 7.8em;
+}
